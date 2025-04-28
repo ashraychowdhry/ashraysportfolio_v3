@@ -57,21 +57,22 @@ const About: React.FC = () => {
             variants={itemVariants}
             className="glassmorphism rounded-2xl p-6 md:p-8 mb-8"
           >
-            <p className="text-text-secondary mb-4">
-              Hello! I'm Ashray, a software engineer passionate about creating 
-              beautiful and functional web experiences. My journey in tech started 
-              when I built my first website at 15, and I've been hooked ever since.
+            <p className="text-text-secondary mb-4 text-lg">
+              I'm Ashray, an engineer passionate about emerging technologies like AI/ML, blockchain, and cloud computing.
+               I've been working in the industry for 5 years, and have been creating tech solutions for over a decade. 
+               I have a B.S. in Computer Science from Georgia Tech, concentrating in Artificial Intelligence and 
+               Database/Networking Design.
             </p>
-            <p className="text-text-secondary mb-4">
-              With a background in computer science and years of industry experience, 
-              I specialize in creating responsive, user-friendly applications that 
-              solve real problems. I'm particularly interested in the intersection of 
-              design and development, where aesthetics meet functionality.
+            <p className="text-text-secondary mb-4 text-lg">
+              Over my time as a professional engineer, I've worked on a variety of projects, 
+              from building scalable cloud solutions, to creating data pipelines for AI/ML models,
+              to developing open source blockchain technology and decentralized applications. Most recently,
+              I am an active maintainer of the xrpl.js and xrpl.py libraries, which are the leading libraries for 
+              interacting with the XRP Ledger blockchain, as well as the official XRPL Livenet Explorer.
             </p>
-            <p className="text-text-secondary">
-              When I'm not coding, you can find me exploring new hiking trails, 
-              experimenting with photography, or diving into a good book. I believe 
-              in continuous learning and am always excited to take on new challenges.
+            <p className="text-text-secondary text-lg">
+              Outside of work, you can find me on a tennis court, playing the guitar, building hobbyist robotics projects,
+              or exploring new hiking trails.     
             </p>
           </motion.div>
 
@@ -80,14 +81,13 @@ const About: React.FC = () => {
               <h3 className="text-xl font-semibold mb-4 text-text-primary">Education</h3>
               <ul className="space-y-4">
                 <li>
-                  <p className="font-medium text-text-primary">Master of Computer Science</p>
-                  <p className="text-text-tertiary">Stanford University</p>
-                  <p className="text-sm text-text-tertiary">2018 - 2020</p>
+                  <p className="font-medium text-text-primary text-lg">Bachelor of Science, Computer Science</p>
+                  <p className="text-text-secondary">Conc. in AI, Database/Networking</p>
+                  <p className="text-text-tertiary">Georgia Institute of Technology</p>
                 </li>
                 <li>
-                  <p className="font-medium text-text-primary">Bachelor of Computer Science</p>
-                  <p className="text-text-tertiary">MIT</p>
-                  <p className="text-sm text-text-tertiary">2014 - 2018</p>
+                  <p className="font-medium text-text-primary text-lg">Minor, Finance</p>
+                  <p className="text-text-tertiary">Georgia Institute of Technology</p>
                 </li>
               </ul>
             </div>
@@ -97,11 +97,11 @@ const About: React.FC = () => {
               <ul className="grid grid-cols-2 gap-3 text-text-tertiary">
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-accent-primary rounded-full mr-2"></span>
-                  Web Development
+                 Artificial Intelligence
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-accent-secondary rounded-full mr-2"></span>
-                  UI/UX Design
+                  Blockchain
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-accent-tertiary rounded-full mr-2"></span>
@@ -113,11 +113,11 @@ const About: React.FC = () => {
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-accent-secondary rounded-full mr-2"></span>
-                  Machine Learning
+                  Full Stack
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-accent-tertiary rounded-full mr-2"></span>
-                  Blockchain
+                  Data Analytics
                 </li>
               </ul>
             </div>

@@ -72,10 +72,10 @@ const Navbar: React.FC = () => {
 
           {/* Resume Button */}
           <motion.a
-            href="#"
             className="hidden md:flex btn btn-outline text-sm"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+            onClick={() => window.open('../../public/Ashray_Chowdhry_Resume.pdf', '_blank')}
           >
             Resume
           </motion.a>

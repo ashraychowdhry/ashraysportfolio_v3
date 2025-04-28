@@ -14,38 +14,41 @@ interface Skill {
 
 const skillCategories: SkillCategory[] = [
   {
-    name: 'Frontend',
+    name: 'Software Languages',
     skills: [
-      { name: 'React', level: 9 },
-      { name: 'JavaScript', level: 9 },
-      { name: 'TypeScript', level: 8 },
-      { name: 'HTML/CSS', level: 9 },
-      { name: 'Vue.js', level: 7 },
-      { name: 'Next.js', level: 8 },
+      { name: 'Rust', level: 10 },
+      { name: 'C++', level: 9 },
+      { name: 'Java', level: 10 },
+      { name: 'TypeScript/JavaScript', level: 9 },
+      { name: 'SQL', level: 7 },
+      { name: 'Python', level: 9 },
+      { name: 'MATLAB', level: 7 },
     ]
   },
   {
-    name: 'Backend',
+    name: 'Frameworks',
     skills: [
-      { name: 'Node.js', level: 8 },
-      { name: 'Express', level: 8 },
-      { name: 'Python', level: 7 },
-      { name: 'Django', level: 6 },
-      { name: 'GraphQL', level: 7 },
-      { name: 'RESTful APIs', level: 9 },
+      { name: 'React.js/Next.js', level: 10 },
+      { name: 'PyTorch', level: 8 },
+      { name: 'Node.js/Express.js', level: 10 },
+      { name: 'Tensorflow', level: 9 },
+      { name: 'Flask', level: 7 },
+      { name: 'PostgreSQL', level: 9 },
+      { name: 'MongoDB', level: 8 },
     ]
   },
   {
-    name: 'Other',
+    name: 'Infrastructure',
     skills: [
+      { name: 'AWS', level: 8 },
       { name: 'Git', level: 9 },
-      { name: 'Docker', level: 7 },
-      { name: 'AWS', level: 7 },
+      { name: 'Docker/Kubernetes', level: 8 },
+      { name: 'Google Cloud', level: 8 },
       { name: 'CI/CD', level: 8 },
-      { name: 'UI/UX Design', level: 7 },
-      { name: 'Agile/Scrum', level: 8 },
+      { name: 'JFrog', level: 6 },
+      { name: 'JIRA Agile/Scrum', level: 7 },
     ]
-  }
+  },
 ];
 
 const Skills: React.FC = () => {
@@ -106,9 +109,6 @@ const Skills: React.FC = () => {
           <motion.h2 variants={itemVariants} className="section-title text-center">
             Skills & Expertise
           </motion.h2>
-          <motion.p variants={itemVariants} className="section-subtitle text-center mx-auto">
-            A comprehensive overview of my technical skills and proficiencies.
-          </motion.p>
 
           <div className="grid md:grid-cols-3 gap-6">
             {skillCategories.map((category, index) => (
@@ -125,7 +125,7 @@ const Skills: React.FC = () => {
                   {category.skills.map((skill, skillIndex) => (
                     <div key={skillIndex}>
                       <div className="flex justify-between mb-1">
-                        <span className="text-text-secondary">{skill.name}</span>
+                        <span className="text-text-secondary text-lg">{skill.name}</span>
                         <span className="text-text-tertiary text-sm">{skill.level}/10</span>
                       </div>
                       <div className="w-full h-2 bg-background-tertiary rounded-full overflow-hidden">

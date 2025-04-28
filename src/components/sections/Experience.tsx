@@ -12,40 +12,61 @@ interface ExperienceItem {
 
 const experiences: ExperienceItem[] = [
   {
-    title: 'Senior Software Engineer',
-    company: 'Tech Innovations Inc.',
-    duration: 'Jan 2022 - Present',
+    title: 'Software Engineer II',
+    company: 'Ripple',
+    duration: 'Aug 2022 - Present',
     description: [
-      'Led a team of 5 developers to build and maintain a high-traffic e-commerce platform',
-      'Architected and implemented a microservices infrastructure that improved system reliability by 40%',
-      'Collaborated with design and product teams to deliver features that increased user engagement by 25%',
-      'Mentored junior developers and conducted code reviews to ensure high quality standards'
+      'Operate as community admin and maintainer for open-sourced XRP Ledger blockchain servers (L1) and client libraries and APIs',
+      'Develop technical specs for new blockchain features and implement them in related repositories',
+      'Integrate new C++ improvements on the XRP Ledger, maintain APIs in Python, JavaScript, and Rust',
+      'Build the XRPL Explorer (React.js/Node.js) for robust community analytics about the XRP Ledger',
+      'Build https://livenet.xrpl.org/ for robust community analytics about the XRP Ledger, and review XRPL Grants',
+      'Integrated B2B payment solutions APIs via blockchain through the RippleNet platform for payment routing, distribution, and smart liquidation',
+      'Owned, architected, and delivered a customer onboarding service that reduced institutional customer onboarding time by 60%',
+      'Created numerous B2B payments services, APIs, features, and testing platforms via Java, AWS, Salesforce, React.js (TypeScript), SQL, Node.js',
     ],
-    technologies: ['React', 'Node.js', 'AWS', 'TypeScript', 'Docker']
+    technologies: ['C++', 'Python', 'TypeScript', 'Java','Rust', 'React', 'Node.js', 'AWS', 'Docker', 'Kubernetes', 'PostgreSQL', 'Git', 'Open Source']
   },
   {
-    title: 'Full Stack Developer',
-    company: 'Digital Solutions LLC',
-    duration: 'Mar 2019 - Dec 2021',
+    title: 'Software Engineer',
+    company: 'Capital One Financial',
+    duration: 'May 2021 - Sept 2021',
     description: [
-      'Built responsive web applications using modern JavaScript frameworks',
-      'Designed and implemented RESTful APIs for mobile and web clients',
-      'Optimized database queries that reduced page load times by 60%',
-      'Integrated third-party services and APIs for payment processing and data analytics'
+      'Spearheaded the Savings Success web platform to provide convenient digitized retirement planning',
+      'Created customer-ready viable product with React.js, Python Flask, PostgreSQL, & AWS'
     ],
-    technologies: ['Vue.js', 'Express', 'MongoDB', 'Python', 'GraphQL']
+    technologies: ['React.js', 'TypeScript', 'MongoDB', 'Python', 'Flask', 'AWS']
   },
   {
-    title: 'Front-End Developer',
-    company: 'WebCraft Studios',
-    duration: 'Jun 2017 - Feb 2019',
+    title: 'Data Analytics Engineer',
+    company: 'John Deere Financial',
+    duration: 'May 2020 - Sept 2020',
     description: [
-      'Developed user interfaces for various client projects using HTML, CSS, and JavaScript',
-      'Collaborated with designers to transform mockups into functional web pages',
-      'Implemented responsive designs that worked across desktop and mobile devices',
-      'Conducted cross-browser testing and fixed compatibility issues'
+      'Developed customer churn predictive model to improve buying trend analysis with PySpark & SQL',
+      'Optimized model by over 35% and structured for production with Databricks and MLFlow',
     ],
-    technologies: ['JavaScript', 'CSS', 'HTML', 'jQuery', 'Sass']
+    technologies: ['Python', 'PySpark', 'SQL', 'Databricks', 'MLFlow']
+  },
+  {
+    title: 'Systems Eng. Modeling Researcher',
+    company: 'Sustainable Design and Manufacturing Laboratory',
+    duration: 'Dec 2019 - Jun 2022',
+    description: [
+      'Designed a modelling software to streamline simulation of large-scale ecosystems with MATLAB',
+      'Implement web application for user-friendly third-party ecological network analysis with React JS',
+      'Co-authored a published IEEE Systems journal paper of a novel systems metric'
+    ],
+    technologies: ['MATLAB', 'React.js', 'Python', 'SQL', 'AWS']
+  },
+  {
+    title: 'Research Partner',
+    company: 'Rutgers University Continuous Manufacturing Laboratory',
+    duration: 'Jun 2018 - Mar 2019',
+    description: [
+      'Created cybersecurity system for continuous pharmaceutical manufacturing control system',
+      'Compiled work across several research sources to identify production areas of vulnerability'
+    ],
+    technologies: ['Manufacturing', 'Cybersecurity', 'Excel', 'Basic']
   }
 ];
 

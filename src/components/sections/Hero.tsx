@@ -1,7 +1,7 @@
 import React, { useCallback } from 'react';
 import { motion } from 'framer-motion';
 import Typewriter from 'typewriter-effect';
-import { ArrowDown, Github, Linkedin, Mail, Twitter } from 'lucide-react';
+import { ArrowDown, Github, Linkedin, Mail, MailCheck, Twitter } from 'lucide-react';
 import Particles from 'react-tsparticles';
 import { loadSlim } from 'tsparticles-slim';
 import type { Engine } from 'tsparticles-engine';
@@ -14,18 +14,13 @@ const Hero: React.FC = () => {
   const socialLinks = [
     { 
       icon: <Github size={20} />, 
-      href: 'https://github.com', 
+      href: 'https://github.com/ashraychowdhry', 
       label: 'GitHub' 
     },
     { 
       icon: <Linkedin size={20} />, 
-      href: 'https://linkedin.com', 
+      href: 'https://www.linkedin.com/in/ashraychowdhry/', 
       label: 'LinkedIn' 
-    },
-    { 
-      icon: <Twitter size={20} />, 
-      href: 'https://twitter.com', 
-      label: 'Twitter' 
     },
     { 
       icon: <Mail size={20} />, 
@@ -147,8 +142,9 @@ const Hero: React.FC = () => {
                 options={{
                   strings: [
                     'Software Engineer',
+                    'Blockchain Engineer',
+                    'AI/ML Developer',
                     'Full Stack Developer',
-                    'UI/UX Enthusiast',
                     'Problem Solver'
                   ],
                   autoStart: true,

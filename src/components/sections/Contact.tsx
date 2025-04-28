@@ -82,20 +82,20 @@ const Contact: React.FC = () => {
     {
       icon: <Mail className="text-accent-primary" size={24} />,
       title: 'Email',
-      detail: 'ashray@example.com',
-      link: 'mailto:ashray@example.com',
+      detail: 'ashraychowdhry@gmail.com',
+      link: 'mailto:ashraychowdhry@gmail.com',
     },
     {
       icon: <Phone className="text-accent-primary" size={24} />,
       title: 'Phone',
-      detail: '+1 (123) 456-7890',
-      link: 'tel:+11234567890',
+      detail: '+1 (609) 937-9394',
+      link: 'tel:+16099379394',
     },
     {
       icon: <MapPin className="text-accent-primary" size={24} />,
       title: 'Location',
-      detail: 'San Francisco, CA',
-      link: 'https://maps.google.com',
+      detail: 'New York, NY',
+      link: 'https://www.google.com/maps/place/New+York,+NY/@40.6966707,-74.3098383,10z/data=!3m1!4b1!4m6!3m5!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127753!4d-74.0059728!16zL20vMDJfMjg2?entry=ttu&g_ep=EgoyMDI1MDQyMy4wIKXMDSoJLDEwMjExNjQwSAFQAw%3D%3D',
     },
   ];
 

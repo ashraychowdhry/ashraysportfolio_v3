@@ -12,7 +12,7 @@ export default {
         accent: {
           primary: '#7928ca',
           secondary: '#ff0080',
-          tertiary: '#0070f3'
+          tertiary: '#0070f3',
         },
         text: {
           primary: '#ffffff',
